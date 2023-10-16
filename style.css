@@ -20,23 +20,39 @@ h1{
 }
 
 h3 { 
-    text-decoration: underline;
+    text-align: center;
+}
+
+h4 { 
     text-align: center;
 }
 
 #navbar{
-    height: 50px;
-    width: 100%;
     background-color: #666666;
+    height: 40px;
+    width: 100%;
     text-align: center;
+    padding-top: 20px;
+    margin-bottom:0px;
 }
 
+hr { 
+    margin-top:0px;
+    border: 1px solid black;
+}
 a{ 
     width: 50px; 
+    text-decoration: none;
     margin: 10px; 
     padding: 10px;
     border-style: 10px solid black;
-    background-color: #999999;
+    border-radius: 15px;
+}
+
+a:hover { 
+    color: white;
+    background-color: #145DA0;
+    border-radius: 15px;
 }
 
 #education { 
@@ -46,22 +62,23 @@ a{
 }
 
 #newbury { 
-    height: 250px;
-    width: 250px;
-    display: inline-block;
+    height: 200px;
+    width: 200px;
     padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
 }
 
 #newbury-history{ 
     position: relative;
     border-radius: 5px solid black;
-    display: inline-block;
 }
 
 #jwu { 
     height: 225px;
     width: 300px;
-    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
     
 }
 
@@ -73,4 +90,10 @@ a{
 #newbury-history > p { 
     text-wrap: balance;
     display: inline-block;
+}
+
+.container { 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
