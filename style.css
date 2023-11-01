@@ -11,12 +11,12 @@ ul {
 
 li { 
     text-align: center;
+    color:#02307a
 }
 
 h1{
     text-align: center;
-    padding-top: 20px;
-
+    text-decoration: underline;
 }
 
 h3 { 
@@ -30,16 +30,24 @@ h4 {
 #navbar{
     background-color: #666666;
     height: 40px;
-    width: 100%;
+    width: 50%;
     text-align: center;
     padding-top: 20px;
-    margin-bottom:0px;
+    margin-bottom:5px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+main { 
+    width: 50%;
+    margin: auto;
 }
 
 hr { 
     margin-top:0px;
     border: 1px solid black;
 }
+
 a{ 
     width: 50px; 
     text-decoration: none;
@@ -49,51 +57,65 @@ a{
     border-radius: 15px;
 }
 
+#classlink { 
+    width: 50px; 
+    text-decoration: underline;
+    background-color: grey;
+}
+
 a:hover { 
     color: white;
     background-color: #145DA0;
     border-radius: 15px;
 }
 
-#education { 
-    border: 2px solid black;
-    width: 1000px;
-    margin: auto;
-}
-
-#newbury { 
+.photo { 
     height: 200px;
     width: 200px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
-}
-
-#newbury-history{ 
-    position: relative;
-    border-radius: 5px solid black;
-}
-
-#jwu { 
-    height: 225px;
-    width: 300px;
-    padding-left: 10px;
-    padding-right: 10px;
-    
+    overflow: hidden
 }
 
 #jwu-history { 
     position: relative;
-    border-radius: 5px solid black;
+    border-bottom: 2px solid black;
+    padding-bottom: 35px;
 }
 
-#newbury-history > p { 
-    text-wrap: balance;
-    display: inline-block;
+#newbury-history{ 
+    position: relative; 
+    padding-bottom: 35px;
 }
 
-.container { 
-    display: flex; 
-    align-items: center;
-    justify-content: center;
+#education { 
+    border: 2px solid black;
+    width: 100%;
+}
+
+.school-classes { 
+    text-align: center;
+    border: 2px solid black;
+}
+
+#classSwitchControls { 
+    padding-bottom: 10px;
+}
+
+
+button { 
+    background-color: grey;
+    color: white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+ul { 
+    list-style-type: none;
+}
+
+li { 
+    text-align: center;
+    color: black;
 }

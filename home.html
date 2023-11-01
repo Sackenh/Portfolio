@@ -3,61 +3,198 @@
     <head>
         <title> Homepage </title>
         <link href = 'style.css' rel = 'stylesheet'>
-        <link href = 'images/nonsense/absolute/nonsense/style.css'>
+        <script src = 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
     </head>
 
     <body>
         
 
         
+        <header>
 
-        <div id = 'education'>
-            <div id = 'navbar'>
-                <a href = 'about.html'> About </a>
-                <a href = 'home.html'> Home </a>
-                <a href = 'projects.html'> Projects </a>
-            </div>
-            <hr>
-            
             <h1> Garrett H. Sacken's Portfolio </h1>
-            <hr>
 
-            <h3> College Education </h3>
+                <div id = 'navbar'>
+                    <a href = 'about.html'> About </a>
+                    <a href = 'home.html'> Home </a>
+                    <a href = 'projects.html'> Projects </a>
+                </div>
+        </header>
 
-            <hr>
+            <main>
+                <article>
+                    <div id = 'education'>
+                    <h3> College Education </h3>
 
-            <h4 id = 'jwu-title'> Johnson & Wales University Providence(2019 - 2023) </h4>
+                    <hr>
 
-            <div class = 'container' id = 'jwu-history'>
+                    <div class = 'container' id = 'jwu-history'>
+                        <img src = "Images/jwu.jpg" alt = "picture of JWU college" class = 'photo' ALIGN = 'left'>
+                        <h4 id = 'jwu-title'> Johnson & Wales University Providence(2019 - 2023) </h4>
+                        <p> 
+                            Decided to attend Johnson & Wales after receiving the announcement that my original school Newbury College was being shut down due to financial troubles. 
+                            Continued double majoring in both Computer Science and Cyber Security at JWU. Took on an internship in my Junior year at JWU where I was an IT intern.
+                            While attending JWU I primarily took part in the JWU Esports team and became a foundation for one of the competitive games. Soon after the director left 
+                            and the previous 'athletic' had soon been turned into a club being run by students. As a result I became one of the student leaders for that club helping it grow 
+                            and compete. This required good communication between the other student leaders and the students participating. 
+                        </p>
+                    </div>
 
-                <img src = "Images/jwu.webp" alt = "picture of JWU college" id = 'jwu'>
+                    
 
-                <p> 
-                    Decided to attend Johnson & Wales after receiving the announcement that my original school Newbury College was being shut down due to financial troubles. 
-                    Continued double majoring in both Computer Science and Cyber Security at JWU. Took on an internship in my Junior year at JWU where I was an IT intern.
-                    While attending JWU I primarily took part in the JWU Esports team and became a foundation for one of the competitive games. Soon after the director left 
-                    and the previous 'athletic' had soon been turned into a club being run by students. As a result I became one of the student leaders for that club helping it grow 
-                    and compete. I put many hours into making sure the dedicated game I was reponsible for ran with no issues. This required good communication between the other student
-                    leaders and the students participating. The game I was responsible for competed at the highest level and against some of the best teams in the league and came close to
-                    winning many tournaments/titles. 
-                </p>
-            </div>
+                    
+                    <div class = 'container' id = 'newbury-history'>
+                        <div><img src = 'Images/newbury.webp' alt = 'picture of newbury college' class = 'photo' ALIGN = 'left'></div>
+                        
+                        <h4> Newbury College(2018 - 2019) </h4>
+                        <p> 
+                            Prior to graduating high school I had already decided and committed to going to Newbury College where I was going to pursue higher education and try to
+                            obtain a Bachelor's of Science in Computer Science and Cyber Security. I was also going to partake in the collegiate mens soccer team which competed on a D3 level. 
+                            My success at Newbury continued both inside the classroom and on the soccer field. The mens team had ended up winning the NCAA D3 conference that we were a part of.
+                            Overall what determined my success at both colleges was that fact that I am a very competitive, dedicated, hard-working individual who will accomplish the goals I set. 
+                        </p>
+                    </div>
+                    
+                </div>
+            
+            </article>
 
-            <hr>
+             
+                <div class = 'school-classes'>
+                    <h2> Classes </h2>
+                    <hr>
+                    <div id = 'classSwitchControls'>
+                        <button id = 'senior' value = 'senior'> Senior Classes </button>
+                        <button id = 'junior' value = 'junior'> Junior Classes </button>
+                        <button id = 'sophmore' value = 'sophmore'> Sophmore Classes </button>
+                        <button id = 'freshman' value = 'freshman'> Freshman Classes </button> 
+                    </div>
 
-            <h4> Newbury College(2018 - 2019) </h4>
-            <div class = 'container' id = 'newbury-history'>
-                
-                <img src = 'Images/newbury.webp' alt = 'picture of newbury college' id = 'newbury'>
-                
-                <p> 
-                    Prior to graduating high school I had already decided and committed to going to Newbury College where I was going to pursue higher education and try to
-                    obtain a Bachelor's of Science in Computer Science and Cyber Security. I was also going to partake in the collegiate mens soccer team which competed on a D3 level. 
-                    My success at Newbury continued both inside the classroom and on the soccer field. The mens team had ended up winning the NCAA D3 conference that we were a part of.
-                    Overall what determined my success at both colleges was that fact that I am a very competitive, dedicated, hard-working individual who will accomplish the goals I set. 
-                </p>
-            </div>
-        </div>
+                    <hr>
 
+                        <div class = 'school-class senior'>
+                            <h3> Senior Year </h3>
+                            <hr>
+                            <h4> Spring 2023 </h4>
+                            <ul> 
+                                <li> Career Management - Grade: A</li>
+                                <li> Active Cyber Defense and Countermeasures - Grade: B </li>
+                                <li> Artificial Intelligence - Grade: C </li>
+                                <li> Cyberlaw - Grade: C </li>
+                                <li> Introductory Psychology - Grade: D+ </li>
+                                <li> Culture and Food - Grade: B </li>
+                            </ul>
+                            <hr>
+                            <h4> Fall 2022 </h4>
+                            <ul> 
+                                <li> Survey of Programming Languages - Grade: B </li>
+                                <li> HCI/Usable Security - Grade: C+ </li>
+                                <li> Cyber Intelligence - Grade: B </li>
+                                <li> Perimeter Protection and Vulnerability Assessment - Grade: B </li>
+                                <li> Introduction to Technical Commuication - Grade: C </li>
+                                <li> Ethics: A Global Perspective: - Grade: D+ </li>
+                            </ul>
+                        </div>
+
+                        <div class = 'school-class junior'>
+                            <h3> Junior Year </h3>
+                            <hr>
+                            <h4> Spring 2022 </h4>
+                            <ul> 
+                                <li> Design Project I - Grade: B</li>
+                                <li> Computer and Network Forensics - Grade: A</li>
+                                <li> Disease and Culture - Grade: C </li>
+                                <li> General Physics I - Grade: C </li>
+                                <li> General Physics I Lab - Grade: C </li>
+                            </ul>
+                            <hr>
+                            <h4> Fall 2021 </h4>
+                            <ul> 
+                                <li> Large Scale Distributed Systems - Grade: A </li>
+                                <li> Writing Workshop - Grade: S(Passed) </li>
+                                <li> Economics of Sin - Grade: B+ </li>
+                                <li> Wireless Networking - Grade: B+ </li>
+                                <li> Internship Course - A+ </li>
+                            </ul>
+                        </div>
+
+                        <div class = 'school-class sophmore'>
+                            <h3> Sophmore Year </h3>
+                            <hr>
+                            <h4> Spring 2021 </h4>
+                            <ul> 
+                                <li> Advanced Data Structures - Grade: A+ </li>
+                                <li> Software Reverse Engineering - Grade: A </li>
+                                <li> Network Protocols II - Grade: A </li>
+                                <li> Systems Modeling and Simulation - Grade: B </li>
+                                <li> Network Security - Grade: B+ </li>
+                                <li> The Legal Environment of Business I - Grade: D+ </li>
+                            </ul>
+                            <hr>
+                            <h4> Fall 2020 </h4>
+                            <ul> 
+                                <li> Introduction to Operating Systems - Grade: A+ </li>
+                                <li> Introduction to Cyber Security Operations - Grade: A+ </li>
+                                <li> Computer Architecture with Assembly Language Programming - Grade: A </li>
+                                <li> Network Protocols - Grade: B+ </li>
+                                <li> Introduction to Project Management - Grade: B </li>
+                            </ul>
+                        </div>
+
+                        <div class = 'school-class freshman'>
+                            <h3> Freshman Year </h3>
+                            <hr>
+                            <h4> Spring 2020</h4>
+                            <ul>
+                                <li> Computer Science II - Grade: P(Pass/Fail due to COVID) </li>
+                                <li> Database Concepts - Grade: A+ </li>
+                                <li> Statistics - Grade: P(Pass/Fail due to COVID) </li>
+                                <li> Crisis and Controversy: A Critical Thinking Approach - Grade: P(Pass/Fail due to COVID) </li>
+                            </ul>
+
+                            <h4> Winter 2019-2020 </h4>
+                            <ul>
+                                <li> Computer Science I - Grade: B </li>
+                                <li> Communication Skills - Grade: C+ </li>
+                                <li> Precalcus - Grade: B+ </li>
+                                <li> Organizational Behavior - Grade: C+ </li>
+                            </ul>
+
+                            <h4> Fall 2019 </h4>
+                            <ul>
+                                <li> Information Security - Grade: B </li>
+                                <li> Foundations of Leadership Studies - Grade: C+ </li>
+                                <li> Fundamentals of Algebra - A </li>
+                            </ul>
+                        </div>
+
+
+                </div>
+            
+            </main>
+
+
+        <footer>
+
+        </footer>
+
+        <script> 
+
+            function switchClasses(event){ //will switch the div showing based on which button is clicked 
+                var buttonClicked = event.currentTarget;
+                $('.school-class').hide();
+                var selected = $(buttonClicked).val();
+                $('.' + selected).show();
+            }
+
+            $('button').click(switchClasses); // calls switch class function every time a button is clicked
+
+            $('.school-class').hide(); // hide every school class DIV 
+
+            $('.senior').show(); //shows the senior class div for default before function is called
+
+
+
+        </script>
     </body>
 </html>
