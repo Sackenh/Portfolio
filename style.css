@@ -1,139 +1,37 @@
 html { 
-    background: linear-gradient(black, grey)
+    background-image: linear-gradient(#161A30, #31304D);
+    color: #f0ece5;
 }
 
-
-body{
-    background-color: none;
-    padding: 0px;
+header{ 
     width: 100%;
-    margin: auto;
+    height: 75px;
+    position:relative;
+    border: 3px solid #B6BBC4; 
 }
 
-ul { 
-    text-align: center;
-}
-
-li { 
-    text-align: center;
-    color:#02307a
-}
-
-h1{
-    width: 50%;
-    margin: auto;
-    background-color: #336699;
-    text-align: center;
-    text-decoration: underline;
-}
-
-h3 { 
-    text-align: center;
-}
-
-h4 { 
-    text-align: center;
-}
-
-#navbar{
-    background-color: #666666;
-    height: 40px;
-    width: 50%;
-    text-align: center;
-    padding-top: 20px;
-    margin-bottom:5px;
-    margin: auto;
-    border: 2px solid black;
-}
-
-main { 
-    background-color: #336699;
-    width: 50%;
-    margin: auto;
-}
-
-hr { 
-    margin-top:0px;
-    border: 1px solid black;
-}
-
-a{ 
-    width: 50px; 
-    text-decoration: none;
-    margin: 10px; 
-    padding: 10px;
-    border-style: 10px solid black;
-    border-radius: 15px;
-}
-
-#classlink { 
-    width: 50px; 
-    text-decoration: underline;
-    background-color: grey;
-}
-
-a:hover { 
-    color: white;
-    background-color: #145DA0;
-    border-radius: 15px;
-}
-
-.photo { 
-    height: 200px;
-    width: 200px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 20px;
-    overflow: hidden
-}
-
-#jwu-history { 
+nav { 
+    display: inline-block;
     position: relative;
-    border-bottom: 2px solid black;
-    padding-bottom: 35px;
 }
 
-#jwu-history > p { 
-    padding-right: 20px;
+nav > img { 
+    position: absolute;
+}
+#links { 
+    display: inline-block; 
+    position: absolute;
+    width: 500px;
+    height: 75px;
 }
 
-#newbury-history{ 
-    position: relative; 
-    padding-bottom: 35px;
+#links > a { 
+    position: absolute;
+    color: #f0ece5;
+    padding: 25px;
 }
 
-#newbury-history > p { 
-    padding-right: 20px;
-}
-
-#education { 
-    border: 2px solid black;
-    width: 100%;
-}
-
-.school-classes { 
-    text-align: center;
-    border: 2px solid black;
-}
-
-
-#classSwitchControls { 
-    padding-bottom: 10px;
-}
-
-
-button { 
-    background-color: grey;
-    color: white;
-    border-radius: 15px;
-    margin-right: 10px;
-}
-
-ul { 
-    list-style-type: none;
-}
-
-li { 
-    text-align: center;
-    color: black;
+#logo { 
+    height: 75px;
+    width: 75px;
 }
